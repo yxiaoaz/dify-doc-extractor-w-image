@@ -1,0 +1,28 @@
+identity:
+  name: "extract-doc-w-image"
+  author: "yicong_xiao"
+  label:
+    en_US: "extract-doc-w-image"
+    zh_Hans: "extract-doc-w-image"
+    pt_BR: "extract-doc-w-image"
+description:
+  human:
+    en_US: "A plugin that extracts documents with images"
+    zh_Hans: "A plugin that extracts documents with images"
+    pt_BR: "A plugin that extracts documents with images"
+  llm: "A plugin that extracts documents with images"
+parameters:
+  - name: input_file
+    type: file
+    required: true
+    label:
+      en_US: Input File
+      zh_Hans: 输入的文件
+    human_description:
+      en_US: Input File
+      zh_Hans: 输入的文件
+    llm_description: A tool for extracting text and image from PDF file
+    form: llm
+extra:
+  python:
+    source: tools/extract-doc-w-image.py

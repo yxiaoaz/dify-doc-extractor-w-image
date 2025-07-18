@@ -1,0 +1,17 @@
+identity:
+  author: "yicong_xiao"
+  name: "extract-doc-w-image"
+  label:
+    en_US: "extract-doc-w-image"
+    zh_Hans: "extract-doc-w-image"
+    pt_BR: "extract-doc-w-image"
+  description:
+    en_US: "A plugin that extracts documents with images"
+    zh_Hans: "A plugin that extracts documents with images"
+    pt_BR: "A plugin that extracts documents with images"
+  icon: "icon.svg"
+tools:
+  - tools/extract-doc-w-image.yaml
+extra:
+  python:
+    source: provider/extract-doc-w-image.py
