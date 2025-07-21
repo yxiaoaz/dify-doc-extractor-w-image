@@ -1,6 +1,6 @@
 version: 0.0.1
 type: plugin
-author: yicong_xiao
+author: edwardxiaoyicong
 name: extract-doc-w-image
 label:
   en_US: extract-doc-w-image
@@ -32,4 +32,4 @@ meta:
 created_at: 2025-07-18T16:21:11.0101193+08:00
 repo: https://github.com/yxiaoaz/dify-doc-extractor-w-image
 privacy: PRIVACY.md
-verified: false
+verified: true
